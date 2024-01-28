@@ -1,7 +1,10 @@
+import { HzArticles } from "@/components/articles/HzArticles";
+import { Box } from "@chakra-ui/react";
 export const Articles = () => {
 	return (
-		<div>
-			<h1>Articles</h1>
-		</div>
+		<Box>
+			Articles
+			<HzArticles />
+		</Box>
 	);
 };

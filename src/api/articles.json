@@ -1,6 +1,7 @@
 {
 	"articles": [
 		{
+			"id": "1",
 			"author": "John Herbalist",
 			"date": "01/15/2024",
 			"image": "url_to_image_1",
@@ -16,6 +17,7 @@
 			"url": "url_to_full_article_1"
 		},
 		{
+			"id": "2",
 			"author": "Alice Botanist",
 			"date": "02/05/2024",
 			"image": "url_to_image_2",
@@ -31,6 +33,7 @@
 			"url": "url_to_full_article_2"
 		},
 		{
+			"id": "3",
 			"author": "Emma Green",
 			"date": "03/12/2024",
 			"image": "url_to_image_3",
@@ -46,6 +49,7 @@
 			"url": "url_to_full_article_3"
 		},
 		{
+			"id": "4",
 			"author": "Ryan Naturelover",
 			"date": "04/08/2024",
 			"image": "url_to_image_4",
@@ -61,6 +65,7 @@
 			"url": "url_to_full_article_4"
 		},
 		{
+			"id": "5",
 			"author": "Olivia Herbalista",
 			"date": "05/22/2024",
 			"image": "url_to_image_5",
@@ -76,6 +81,7 @@
 			"url": "url_to_full_article_5"
 		},
 		{
+			"id": "6",
 			"author": "Daniel Herbington",
 			"date": "06/17/2024",
 			"image": "url_to_image_6",
@@ -91,6 +97,7 @@
 			"url": "url_to_full_article_6"
 		},
 		{
+			"id": "7",
 			"author": "Sophie Greensmith",
 			"date": "07/11/2024",
 			"image": "url_to_image_7",
@@ -106,6 +113,7 @@
 			"url": "url_to_full_article_7"
 		},
 		{
+			"id": "8",
 			"author": "Max Herbalton",
 			"date": "08/05/2024",
 			"image": "url_to_image_8",
@@ -121,6 +129,7 @@
 			"url": "url_to_full_article_8"
 		},
 		{
+			"id": "9",
 			"author": "Natalie Herbwell",
 			"date": "09/20/2024",
 			"image": "url_to_image_9",
@@ -136,6 +145,7 @@
 			"url": "url_to_full_article_9"
 		},
 		{
+			"id": "10",
 			"author": "Leo Greenleaf",
 			"date": "10/12/2024",
 			"image": "url_to_image_10",
@@ -151,6 +161,7 @@
 			"url": "url_to_full_article_10"
 		},
 		{
+			"id": "11",
 			"author": "Isabel Herbington",
 			"date": "11/08/2024",
 			"image": "url_to_image_11",
@@ -166,6 +177,7 @@
 			"url": "url_to_full_article_11"
 		},
 		{
+			"id": "12",
 			"author": "Ethan Greenleaf",
 			"date": "12/04/2024",
 			"image": "url_to_image_12",
@@ -181,6 +193,7 @@
 			"url": "url_to_full_article_12"
 		},
 		{
+			"id": "13",
 			"author": "Zoe Herbwell",
 			"date": "01/18/2025",
 			"image": "url_to_image_13",
@@ -196,6 +209,7 @@
 			"url": "url_to_full_article_13"
 		},
 		{
+			"id": "14",
 			"author": "Noah Herbalstein",
 			"date": "02/12/2025",
 			"image": "url_to_image_14",
@@ -211,6 +225,7 @@
 			"url": "url_to_full_article_14"
 		},
 		{
+			"id": "15",
 			"author": "Ava Herbalington",
 			"date": "03/28/2025",
 			"image": "url_to_image_15",

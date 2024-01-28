@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom";
-import "./Navigation.scss";
+import "./HzNavigation.scss";
 import { Link as ChakraLink, ButtonGroup, Box } from "@chakra-ui/react";
 import logo from "@assets/logo.svg";
 import herbalZen from "@assets/herbal-zen.svg";
 
-export const Navigation = () => {
+export const HzNavigation = () => {
 	const NAVIGATION_LINKS = [
 		{ id: 1, url: "/", name: "Home" },
 		{ id: 3, url: "/articles", name: "Articles" },

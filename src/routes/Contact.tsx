@@ -1,3 +1,4 @@
+import { Box } from "@chakra-ui/react";
 export const Contact = () => {
-	return <div>Contact</div>;
+	return <Box>Contact</Box>;
 };
