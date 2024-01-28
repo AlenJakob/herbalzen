@@ -1,3 +1,5 @@
+import { Box } from "@chakra-ui/react";
+
 export const Home = () => {
-	return <div>Home</div>;
+	return <Box sx={{ marginTop: "2rem" }}>Home</Box>;
 };

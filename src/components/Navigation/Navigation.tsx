@@ -7,7 +7,7 @@ import herbalZen from "@assets/herbal-zen.svg";
 export const Navigation = () => {
 	const NAVIGATION_LINKS = [
 		{ id: 1, url: "/", name: "Home" },
-		{ id: 3, url: "/news", name: "News" },
+		{ id: 3, url: "/articles", name: "Articles" },
 		{ id: 4, url: "/herbals", name: "Herbals" },
 		{ id: 5, url: "/tips", name: "Tips" },
 		{ id: 6, url: "/contact", name: "Contact" },

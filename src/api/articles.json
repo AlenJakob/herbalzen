@@ -1,0 +1,229 @@
+{
+	"articles": [
+		{
+			"author": "John Herbalist",
+			"date": "01/15/2024",
+			"image": "url_to_image_1",
+			"content": {
+				"title": "The Power of Lavender",
+				"main": "Lavender is known for its soothing properties and pleasant fragrance...",
+				"properties": "Lavender has antimicrobial and antioxidant characteristics...",
+				"summary": "Explore the various uses and benefits of lavender in this article."
+			},
+			"tags": ["herbs", "lavender", "aromatherapy"],
+			"category": "Herbal Remedies",
+			"source": "Herbal Gazette",
+			"url": "url_to_full_article_1"
+		},
+		{
+			"author": "Alice Botanist",
+			"date": "02/05/2024",
+			"image": "url_to_image_2",
+			"content": {
+				"title": "Chamomile: Nature's Calming Agent",
+				"main": "Discover the calming effects of chamomile and its potential health benefits...",
+				"properties": "Chamomile is known for its anti-inflammatory and relaxation-inducing properties...",
+				"summary": "Explore the world of chamomile and its uses in promoting relaxation."
+			},
+			"tags": ["herbs", "chamomile", "stress relief"],
+			"category": "Natural Remedies",
+			"source": "Herb World",
+			"url": "url_to_full_article_2"
+		},
+		{
+			"author": "Emma Green",
+			"date": "03/12/2024",
+			"image": "url_to_image_3",
+			"content": {
+				"title": "Ginseng: A Herbal Boost for Energy",
+				"main": "Unlock the energy-boosting properties of ginseng and its role in traditional medicine...",
+				"properties": "Ginseng is believed to enhance vitality and combat fatigue...",
+				"summary": "Learn about the potential benefits of ginseng and how it can improve your overall well-being."
+			},
+			"tags": ["herbs", "ginseng", "energy boost"],
+			"category": "Herbal Supplements",
+			"source": "Green Living",
+			"url": "url_to_full_article_3"
+		},
+		{
+			"author": "Ryan Naturelover",
+			"date": "04/08/2024",
+			"image": "url_to_image_4",
+			"content": {
+				"title": "Peppermint: More Than Just a Refreshing Herb",
+				"main": "Explore the versatile uses of peppermint and its impact on digestive health...",
+				"properties": "Peppermint is known for its cooling and digestive properties...",
+				"summary": "Discover the wonders of peppermint and how it can benefit your overall health."
+			},
+			"tags": ["herbs", "peppermint", "digestive health"],
+			"category": "Herbal Remedies",
+			"source": "Nature's Bounty",
+			"url": "url_to_full_article_4"
+		},
+		{
+			"author": "Olivia Herbalista",
+			"date": "05/22/2024",
+			"image": "url_to_image_5",
+			"content": {
+				"title": "Turmeric: The Golden Spice of Health",
+				"main": "Uncover the health benefits of turmeric and its active compound curcumin...",
+				"properties": "Turmeric is known for its anti-inflammatory and antioxidant properties...",
+				"summary": "Explore the golden goodness of turmeric and its potential impact on your well-being."
+			},
+			"tags": ["herbs", "turmeric", "anti-inflammatory"],
+			"category": "Natural Remedies",
+			"source": "Herb Insights",
+			"url": "url_to_full_article_5"
+		},
+		{
+			"author": "Daniel Herbington",
+			"date": "06/17/2024",
+			"image": "url_to_image_6",
+			"content": {
+				"title": "Echinacea: Boosting Immunity Naturally",
+				"main": "Learn about the immune-boosting properties of echinacea and its role in preventing colds...",
+				"properties": "Echinacea is believed to stimulate the immune system...",
+				"summary": "Discover how echinacea can be a natural ally in supporting your immune health."
+			},
+			"tags": ["herbs", "echinacea", "immune health"],
+			"category": "Herbal Supplements",
+			"source": "Healthy Herb Living",
+			"url": "url_to_full_article_6"
+		},
+		{
+			"author": "Sophie Greensmith",
+			"date": "07/11/2024",
+			"image": "url_to_image_7",
+			"content": {
+				"title": "Rosemary: A Herb for Memory and Focus",
+				"main": "Explore the cognitive benefits of rosemary and its potential impact on memory...",
+				"properties": "Rosemary is believed to have cognitive-enhancing properties...",
+				"summary": "Learn how incorporating rosemary into your routine can support mental clarity and focus."
+			},
+			"tags": ["herbs", "rosemary", "cognitive health"],
+			"category": "Herbal Remedies",
+			"source": "Nature's Wisdom",
+			"url": "url_to_full_article_7"
+		},
+		{
+			"author": "Max Herbalton",
+			"date": "08/05/2024",
+			"image": "url_to_image_8",
+			"content": {
+				"title": "Aloe Vera: Nature's Healing Succulent",
+				"main": "Discover the healing properties of aloe vera and its applications in skincare...",
+				"properties": "Aloe vera is known for its soothing and moisturizing effects...",
+				"summary": "Explore the versatility of aloe vera and how it can benefit your skin and overall health."
+			},
+			"tags": ["herbs", "aloe vera", "skincare"],
+			"category": "Natural Remedies",
+			"source": "Herb Elegance",
+			"url": "url_to_full_article_8"
+		},
+		{
+			"author": "Natalie Herbwell",
+			"date": "09/20/2024",
+			"image": "url_to_image_9",
+			"content": {
+				"title": "Holy Basil: The Sacred Herb for Stress Relief",
+				"main": "Explore the stress-relieving properties of holy basil and its role in traditional medicine...",
+				"properties": "Holy basil is known for its adaptogenic and calming properties...",
+				"summary": "Discover how holy basil can be a natural remedy for managing stress and promoting well-being."
+			},
+			"tags": ["herbs", "holy basil", "stress relief"],
+			"category": "Herbal Supplements",
+			"source": "Holistic Herbology",
+			"url": "url_to_full_article_9"
+		},
+		{
+			"author": "Leo Greenleaf",
+			"date": "10/12/2024",
+			"image": "url_to_image_10",
+			"content": {
+				"title": "Ginger: A Spice with Health Benefits",
+				"main": "Uncover the health benefits of ginger and its role in supporting digestion...",
+				"properties": "Ginger is known for its anti-nausea and anti-inflammatory properties...",
+				"summary": "Explore the versatility of ginger and its potential impact on your digestive well-being."
+			},
+			"tags": ["herbs", "ginger", "digestive health"],
+			"category": "Natural Remedies",
+			"source": "Herbal Delights",
+			"url": "url_to_full_article_10"
+		},
+		{
+			"author": "Isabel Herbington",
+			"date": "11/08/2024",
+			"image": "url_to_image_11",
+			"content": {
+				"title": "Valerian Root: Nature's Sleep Aid",
+				"main": "Learn about the calming effects of valerian root and its potential as a natural sleep aid...",
+				"properties": "Valerian root is believed to have sedative and anxiety-reducing properties...",
+				"summary": "Discover how valerian root can contribute to a restful night's sleep and relaxation."
+			},
+			"tags": ["herbs", "valerian root", "sleep aid"],
+			"category": "Herbal Remedies",
+			"source": "Dreamy Herbology",
+			"url": "url_to_full_article_11"
+		},
+		{
+			"author": "Ethan Greenleaf",
+			"date": "12/04/2024",
+			"image": "url_to_image_12",
+			"content": {
+				"title": "Mint: Refreshing Herb for Digestive Health",
+				"main": "Explore the digestive benefits of mint and its role in alleviating indigestion...",
+				"properties": "Mint is known for its soothing and cooling effects on the digestive system...",
+				"summary": "Discover how incorporating mint into your diet can support overall digestive well-being."
+			},
+			"tags": ["herbs", "mint", "digestive health"],
+			"category": "Natural Remedies",
+			"source": "Herb Enthusiast",
+			"url": "url_to_full_article_12"
+		},
+		{
+			"author": "Zoe Herbwell",
+			"date": "01/18/2025",
+			"image": "url_to_image_13",
+			"content": {
+				"title": "Sage: Herb of Wisdom and Wellness",
+				"main": "Learn about the historical significance of sage and its potential health benefits...",
+				"properties": "Sage is known for its anti-inflammatory and antimicrobial properties...",
+				"summary": "Explore the wisdom behind sage and how it can contribute to your overall wellness."
+			},
+			"tags": ["herbs", "sage", "wellness"],
+			"category": "Herbal Remedies",
+			"source": "Wisdom Herbology",
+			"url": "url_to_full_article_13"
+		},
+		{
+			"author": "Noah Herbalstein",
+			"date": "02/12/2025",
+			"image": "url_to_image_14",
+			"content": {
+				"title": "Dandelion: Humble Weed with Health Benefits",
+				"main": "Discover the surprising health benefits of dandelion and its use in traditional medicine...",
+				"properties": "Dandelion is known for its diuretic and antioxidant properties...",
+				"summary": "Explore the nutritional value of dandelion and how it can be a valuable addition to your diet."
+			},
+			"tags": ["herbs", "dandelion", "nutrition"],
+			"category": "Natural Remedies",
+			"source": "Herbal Discoveries",
+			"url": "url_to_full_article_14"
+		},
+		{
+			"author": "Ava Herbalington",
+			"date": "03/28/2025",
+			"image": "url_to_image_15",
+			"content": {
+				"title": "Thyme: Herb of Culinary and Medicinal Delight",
+				"main": "Explore the dual role of thyme in both culinary dishes and traditional medicine...",
+				"properties": "Thyme is known for its antimicrobial and respiratory health benefits...",
+				"summary": "Discover the aromatic and health-boosting qualities of thyme in this comprehensive article."
+			},
+			"tags": ["herbs", "thyme", "culinary medicine"],
+			"category": "Herbal Remedies",
+			"source": "Herb Culinary",
+			"url": "url_to_full_article_15"
+		}
+	]
+}
