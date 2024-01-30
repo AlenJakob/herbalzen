@@ -5,7 +5,6 @@ import {
 	Stack,
 	Image,
 	Text,
-	ButtonGroup,
 	CardFooter,
 	Divider,
 	Badge,
@@ -24,18 +23,27 @@ const randomizeTagColor = () => {
 export const HzArticleCard = ({ article }: { article: IArticleCard }) => {
 	const { author, date, image, content, tags, category, source, url, id } =
 		article;
-	const { title, main, properties, summary } = content;
+	const { title, main, partial, properties, summary } = content;
 	return (
 		<Card maxW="sm">
 			<CardBody>
-				<Image
-					src={temporaryImage}
-					alt="Green tea herbal zen"
-					borderRadius="lg"
-				/>
+				<Link as={NavLink} to={`/articles/${id}`}>
+					<Image
+						src={temporaryImage}
+						alt="Green tea herbal zen"
+						borderRadius="lg"
+					/>
+				</Link>
 				<Stack mt="6" spacing="3">
-					<Heading size="md">{title}</Heading>
-					<Text>{main}</Text>
+					<Heading
+						_hover={{ bg: "teal.200" }}
+						size="md"
+						as={NavLink}
+						to={`/articles/${id}`}
+					>
+						{title}
+					</Heading>
+					<Text>{partial}</Text>
 					<Stack direction="row">
 						{tags.map((tag, i) => {
 							return (
@@ -53,25 +61,7 @@ export const HzArticleCard = ({ article }: { article: IArticleCard }) => {
 					borderColor: "gray.100",
 				}}
 			/>
-			<CardFooter padding="10px">
-				<ButtonGroup spacing="1">
-					<Link
-						as={NavLink}
-						size="sm"
-						variant="outline"
-						display="flex"
-						alignItems="center"
-						borderRadius={4}
-						padding="4px 8px"
-						bg="teal.500"
-						color="white"
-						_hover={{ bg: "teal.200" }}
-						to={`/articles/${id}`}
-					>
-						read more
-					</Link>
-				</ButtonGroup>
-			</CardFooter>
+			<CardFooter padding="5px">tutaj data?</CardFooter>
 		</Card>
 	);
 };

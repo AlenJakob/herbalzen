@@ -13,6 +13,7 @@ export interface IArticleCard {
 		main: string;
 		properties: string;
 		summary: string;
+		partial: string;
 	};
 	tags: string[];
 	category: string;
