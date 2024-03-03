@@ -11,6 +11,7 @@ export const HzNavigation = () => {
 		{ id: 4, url: "/herbals", name: "Herbals" },
 		{ id: 5, url: "/tips", name: "Tips" },
 		{ id: 6, url: "/contact", name: "Contact" },
+		{ id: 7, url: "/account", name: "Account" },
 	];
 
 	return (
@@ -29,7 +30,6 @@ export const HzNavigation = () => {
 					<img style={{ maxWidth: "35px" }} src={logo} alt="herbal zen logo" />
 					<img src={herbalZen} alt="herbal zen text logo" />
 				</Box>
-
 				<Box
 					style={{
 						display: "flex",
@@ -47,7 +47,6 @@ export const HzNavigation = () => {
 							_hover={{ bg: "teal.200" }}
 							className={({ isActive }) => (isActive ? "active" : "")}
 							as={NavLink}
-							variant="outline"
 							key={id}
 							to={url}
 						>

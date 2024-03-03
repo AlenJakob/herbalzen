@@ -21,6 +21,8 @@ const randomizeTagColor = () => {
 };
 
 export const HzArticleCard = ({ article }: { article: IArticleCard }) => {
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
+	// TODO: variables to use
 	const { author, date, image, content, tags, category, source, url, id } =
 		article;
 	const { title, main, partial, properties, summary } = content;
