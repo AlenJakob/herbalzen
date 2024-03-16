@@ -1,8 +1,9 @@
-import { Link } from "@chakra-ui/react";
+import { Box, Link } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
+import { HzAvatar } from "../common/HzAvatar";
 export const HzAccountButtonCta = () => {
 	return (
-		<div>
+		<Box display="flex">
 			<Link
 				display="flex"
 				alignItems="center"
@@ -16,6 +17,7 @@ export const HzAccountButtonCta = () => {
 			>
 				Zaloguj się
 			</Link>
-		</div>
+			<HzAvatar />
+		</Box>
 	);
 };
