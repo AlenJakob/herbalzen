@@ -1,13 +1,18 @@
+import { useState } from "react";
 import { AccountPanel } from "../common/AccountPanel";
 import { HzLoginForm } from "./HzLoginForm";
 import { HzRegisterForm } from "./HzRegisterForm";
 
-export const HzFormManager = (props) => {
+export const HzFormManager = () => {
+	const [isSignUp, setIsSignUp] = useState(true);
 	return (
-		<div>
+		<>
 			<AccountPanel />
-			<HzLoginForm />
-			<HzRegisterForm />
-		</div>
+			{isSignUp ? (
+				<HzLoginForm toggleSignUp={setIsSignUp} />
+			) : (
+				<HzRegisterForm toggleSignUp={setIsSignUp} />
+			)}
+		</>
 	);
 };

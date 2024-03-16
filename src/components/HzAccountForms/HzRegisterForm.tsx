@@ -1,4 +1,5 @@
 import {
+	Box,
 	Button,
 	Container,
 	FormControl,
@@ -10,17 +11,20 @@ import {
 import { SetStateAction, useState } from "react";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "@/firebase";
+import { ToggleFormState } from "@/types/common";
 
-export const HzRegisterForm = () => {
+export const HzRegisterForm = ({ toggleSignUp }: ToggleFormState) => {
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
 
 	const handleEmailChange = (e: {
 		target: { value: SetStateAction<string> };
 	}) => setEmail(e.target.value);
+
 	const handlePasswordChange = (e: {
 		target: { value: SetStateAction<string> };
 	}) => setPassword(e.target.value);
+
 	const handleSubmit = (e: { preventDefault: () => void }) => {
 		e.preventDefault();
 		console.log("Log:email", email);
@@ -43,8 +47,15 @@ export const HzRegisterForm = () => {
 		>
 			<Heading>Rejestracja</Heading>
 
+			<Box my={4}>
+				Mam konto{" "}
+				<Button variant="link" onClick={() => toggleSignUp(true)}>
+					Logowanie
+				</Button>
+			</Box>
+
 			<form onSubmit={handleSubmit}>
-				<FormControl>
+				<FormControl mb={4}>
 					<FormLabel>Email address</FormLabel>
 					<Input type="email" value={email} onChange={handleEmailChange} />
 					{/* <FormHelperText>We'll never share your email.</FormHelperText> */}
@@ -60,7 +71,7 @@ export const HzRegisterForm = () => {
 					{/* <FormHelperText>We'll never share your email.</FormHelperText> */}
 				</FormControl>
 				<Button marginTop={4} variant="solid" type="submit">
-					Submit
+					Zarejestruj
 				</Button>
 			</form>
 		</Container>

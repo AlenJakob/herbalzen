@@ -3,15 +3,14 @@ import "./HzNavigation.scss";
 import { Link as ChakraLink, ButtonGroup, Box } from "@chakra-ui/react";
 import logo from "@assets/logo.svg";
 import herbalZen from "@assets/herbal-zen.svg";
+import { HzAccountButtonCta } from "../settings/HzAccountButtonCta";
 
 export const HzNavigation = () => {
 	const NAVIGATION_LINKS = [
-		{ id: 1, url: "/", name: "Home" },
-		{ id: 3, url: "/articles", name: "Articles" },
-		{ id: 4, url: "/herbals", name: "Herbals" },
-		{ id: 5, url: "/tips", name: "Tips" },
-		{ id: 6, url: "/contact", name: "Contact" },
-		{ id: 7, url: "/account", name: "Account" },
+		{ id: 3, url: "/", name: "Artykuły" },
+		{ id: 4, url: "/herbals", name: "Zioła" },
+		{ id: 5, url: "/tips", name: "Porady" },
+		{ id: 6, url: "/contact", name: "Kontakt" },
 	];
 
 	return (
@@ -45,7 +44,6 @@ export const HzNavigation = () => {
 							bg="teal.500"
 							color="white"
 							_hover={{ bg: "teal.200" }}
-							className={({ isActive }) => (isActive ? "active" : "")}
 							as={NavLink}
 							key={id}
 							to={url}
@@ -53,6 +51,7 @@ export const HzNavigation = () => {
 							{name}
 						</ChakraLink>
 					))}
+					<HzAccountButtonCta />
 				</Box>
 			</Box>
 		</ButtonGroup>

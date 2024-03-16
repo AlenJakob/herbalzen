@@ -21,7 +21,7 @@ export const Article = () => {
 	const { title, main, partial } = content;
 	return (
 		<div>
-			<Button as={NavLink} to="/articles">
+			<Button as={NavLink} to="/">
 				go Back
 			</Button>
 			{/* ARTICLE: <b>ID: {id}</b> */}

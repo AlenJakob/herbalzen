@@ -1,6 +1,7 @@
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "@/firebase";
 import {
+	Box,
 	Button,
 	Container,
 	FormControl,
@@ -10,14 +11,16 @@ import {
 	Input,
 } from "@chakra-ui/react";
 import { SetStateAction, useState } from "react";
+import { FormStateToggle } from "@/types/common";
 
-export const HzLoginForm = () => {
-	const [email, setEmail] = useState("");
-	const [password, setPassword] = useState("");
+export const HzLoginForm = ({ toggleSignUp }: FormStateToggle) => {
+	const [email, setEmail] = useState("alenjakob@gmail.com");
+	const [password, setPassword] = useState("alenjakob");
 
 	const handleEmailChange = (e: {
 		target: { value: SetStateAction<string> };
 	}) => setEmail(e.target.value);
+
 	const handlePasswordChange = (e: {
 		target: { value: SetStateAction<string> };
 	}) => setPassword(e.target.value);
@@ -42,8 +45,15 @@ export const HzLoginForm = () => {
 		>
 			<Heading>Logowanie</Heading>
 
+			<Box my={4}>
+				Nowy użytkownik ?{" "}
+				<Button variant="link" onClick={() => toggleSignUp(false)}>
+					Załóż konto
+				</Button>
+			</Box>
+
 			<form onSubmit={handleSubmit}>
-				<FormControl>
+				<FormControl mb={4}>
 					<FormLabel>Email address</FormLabel>
 					<Input type="email" value={email} onChange={handleEmailChange} />
 					{/* <FormHelperText>We'll never share your email.</FormHelperText> */}
@@ -59,7 +69,7 @@ export const HzLoginForm = () => {
 					{/* <FormHelperText>We'll never share your email.</FormHelperText> */}
 				</FormControl>
 				<Button marginTop={4} variant="solid" type="submit">
-					Submit
+					Zaloguj
 				</Button>
 			</form>
 		</Container>
