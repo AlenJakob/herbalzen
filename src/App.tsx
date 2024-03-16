@@ -1,35 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import { HzModal } from "./components/Modal/HzModal";
+import { HzNavigation } from "./components/HzNavigation/HzNavigation";
+import { HzRoutes } from "./components/Routes/Routes";
+import { Box, Container } from "@chakra-ui/react";
+import { useModalStore } from "./store/modal";
+import { HzFooter } from "./components/common/HzFooter";
 
 function App() {
-  const [count, setCount] = useState(0)
+	const { isOpen, onClose } = useModalStore();
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+	return (
+		<Container p={4} maxW="5xl" m="2rem auto">
+			<Box p={4} marginBottom="2rem" borderWidth="1px" borderRadius="lg">
+				<HzNavigation />
+			</Box>
+			<HzRoutes />
+			<HzModal isOpen={isOpen} onClose={onClose}>
+				Modal Content
+			</HzModal>
+			<HzFooter />
+		</Container>
+	);
 }
 
-export default App
+export default App;
